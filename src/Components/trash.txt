@@ -1,0 +1,111 @@
+Using absolute positioning with different top and left values
+/* .product {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  width: auto;
+  color: aliceblue;
+  border: 2px solid rgb(217, 214, 214);
+  z-index: 1;
+  margin-top: 295px
+}
+
+.box:nth-child(1) {
+  background-color: #fff;
+  left: 30px;
+  top: 400px;
+  width: 23%;
+  height: 450px;
+}
+
+.box:nth-child(2) {
+  background-color: #fff;
+  left: 400px;
+  top: 400px;
+  width: 23%;
+  height: 450px;
+}
+
+.box:nth-child(3) {
+  background-color: #fff;
+  left: 770px;
+  top: 400px;
+  width: 23%;
+  height: 450px;
+}
+
+.box:nth-child(4) {
+  background-color: #fff;
+  left: 1138px;
+  top: 400px;
+  width: 23%;
+  height: 450px;
+}
+
+.product div {
+  justify-content: space-evenly;
+}
+
+.box__img1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box__img2 {
+  margin-top: 5px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box1 img {
+  height: 170px;
+}
+
+.description p {
+  display: inline;
+}
+
+.box2 img {
+  height: 260px;
+  margin: 0 80px;
+}
+
+.box3 img {
+  background-size: contain;
+  height: 300px;
+  width: 100%;
+  padding: 0 25px 0 25px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+} */
+
+/* .box4 img {
+  background-size: contain;
+  width: 330px;
+  margin: 0 10px 0 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+} */
+
+/* #Product {
+  height: 100%;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}

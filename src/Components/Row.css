@@ -1,0 +1,97 @@
+.row__poster {
+  width: 100%;
+  object-fit: contain;
+  max-height: 300px;
+  /* margin-right: 10px; */
+  transition: transform 450ms;
+}
+
+.row__posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row__poster:hover {
+  transform: scale(1.08);
+}
+
+/* .btn2 {
+  width: 100%;
+  justify-content: center;
+  margin: 14px 50px 14px 0px;
+  font-size: 16px;
+
+} */
+
+.title {
+  font-size: 16px !important;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.price {
+  padding-top: 0px !important;
+  margin-top: -7px !important;
+  text-align: center;
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .row__posters {
+    display: block;
+    margin-bottom: 80px 0;
+    font-size: 20px;
+  }
+
+  .row__wrapper {
+    margin-left: 100px;
+
+  }
+
+  .card {
+    margin-bottom: 50px;
+    /* padding-bottom: 50px; */
+  }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .row__posters {
+    display: block;
+    margin-bottom: 80px 0;
+  }
+
+  .row__wrapper {
+    margin-left: 100px;
+
+  }
+
+  .card {
+    margin-bottom: 50px;
+    /* padding-bottom: 50px; */
+  }
+}
+
+
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+/* @media (max-width: 991.98px) {
+  ...
+} */
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+/* @media (max-width: 1199.98px) {
+  ...
+} */
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+/* @media (max-width: 1399.98px) {
+  ...
+} */

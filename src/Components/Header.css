@@ -1,0 +1,277 @@
+.header__logo {
+  cursor: pointer;
+  height: 35px;
+  width: 100px;
+  margin: 8px 0px 2px 15px;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  position: sticky;
+  align-items: center;
+  /* justify-content: space-between; */
+  background-color: #131921;
+  /* color: white; */
+  /* position: sticky; */
+  top: 0;
+  z-index: 100;
+}
+
+.header__searchIcon {
+  font-size: 41px !important;
+  cursor: pointer;
+  color: #131921;
+  padding: 5px;
+  height: 100%;
+  width: 2.5rem !important;
+  background-color: #ffb758;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  height: auto;
+}
+
+.location {
+  font-size: 23px !important;
+  padding: 0px;
+  margin-bottom: -4px;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.header__drop {
+  cursor: pointer;
+  text-align: start;
+  width: 60px;
+  height: 43px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: gainsboro;
+}
+
+.header__drop option {
+  background-color: whitesmoke;
+  width: 100%;
+}
+
+.header__drop:focus-within {
+  border-width: 3px;
+  border-color: #f9a02c;
+}
+
+.header__drop2 {
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  width: 60px;
+  height: 43px;
+  border-style: none;
+  background-color: #131921;
+}
+
+.header__drop2 option {
+  color: black;
+  background-color: whitesmoke;
+  width: 100%;
+}
+
+.header__drop2 option img {
+  width: 100%;
+  display: block;
+}
+
+.header__searchInput {
+  height: 41px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.header__option {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin: 23px;
+  color: white;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__optionLineOne {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.header__optionLineOneL {
+  padding-left: 11px;
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+.header__optionLineTwo {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0px 0px 0px 0px;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cart {
+  font-size: 30px !important;
+}
+
+.header__clearlink {
+  text-decoration: none;
+}
+
+.header__optionLineOneR {
+  color: #f9a02c;
+  font-weight: 600;
+  padding-left: 15px;
+  font-size: 17px;
+  margin-bottom: -10px;
+}
+
+.header__optionLine2 {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 14px 0px;
+}
+
+.header__option2 {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin: 22px 5px;
+  color: white;
+}
+
+.header__option2:hover {
+  text-decoration: none;
+  color: #f9a02c;
+}
+
+.cart__name {
+  color: white;
+  padding: 29px 28px 12px 1px;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.header__counter {
+  font-size: 23px;
+  margin: 0px 7px;
+  color: #f9a02c
+}
+
+.margin-top {
+  margin: 30px;
+}
+
+.Mobile__Size {
+  display: none;
+}
+
+.Mobile__size2 {
+  display: none;
+}
+
+.underline {
+  color: azure;
+  text-decoration: none;
+}
+
+.underline:hover {
+  color: #f9a02c;
+  text-decoration: none;
+}
+
+.cart:hover {
+  font-size: 31px !important;
+}
+
+@media only screen and (max-width: 1093px) {
+
+  .header__drop {
+    display: none;
+  }
+
+  .header__search {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1093px) {
+  .header__drop2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 858px) {
+  .RandO {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .header__optionLineOneL {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 682px) {
+  .header__optionLineTwo {
+    display: none;
+  }
+
+  .cart__name {
+    display: none;
+  }
+
+  .Mobile__Size {
+    display: block;
+  }
+
+  .header__optionLine2 {
+    display: none;
+  }
+
+  .sign-inOut {
+    display: none;
+  }
+
+  .Mobile__size2 {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+
+  .Mobile__size2 span {
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 5px;
+  }
+
+  .header__logo {
+    width: 70px;
+    margin-right: 5px;
+  }
+}

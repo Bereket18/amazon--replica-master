@@ -1,0 +1,57 @@
+.panel {
+  width: 100%;
+  height: 45px;
+  overflow: hidden;
+  background-image: none;
+  background-color: #232f3e;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.panel__menu {
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.panel__lists p {
+  /* float: right; */
+  display: inline;
+  font-size: 0.890rem;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.panel__lists {
+  width: 94%;
+}
+
+.panel__deals {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 1500px) {
+  .panel__lists p {
+    float: none;
+    font-size: 0.790rem;
+  }
+}
+
+@media screen and (max-width: 1368px) {
+  .panel__menu {
+    margin-left: 2px;
+  }
+
+  .panel__lists {
+    margin-left: -1px;
+  }
+}
+
+@media only screen and (max-width: 610) {
+  .panel__lists p {
+    display: none;
+  }
+}
