@@ -1,5 +1,5 @@
 // require("dotenv").config();
-const port = 8100;
+const port = 6060;
 const express = require("express");
 const cors = require("cors");
 const stripe = require("stripe")(
